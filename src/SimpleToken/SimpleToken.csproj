@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AElf.Kernel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>Reference\AElf.Kernel.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="AElf.Sdk.CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>Reference\AElf.Sdk.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.6.0" />
+  </ItemGroup>
+</Project>
